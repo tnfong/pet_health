@@ -1,0 +1,45 @@
+th[rowspan]
+,td[rowspan]{
+	vertical-align : middle;
+	text-align:center;
+}
+
+img.center-crop{
+	object-fit: none;
+	object-position: center;
+	width: 100%;
+}
+
+.badge{
+	font-size: .8rem;
+}
+
+.content-report .step_name{
+    float: left;
+    font-size: 1rem;
+}
+
+.content-report .step_value{
+    border: none;
+    border-bottom: 1px dotted #AAAAAA;
+    outline: none;
+    font-style: italic;
+    color: #0d6efd;
+    float: left;
+}
+
+.emp-item{
+    cursor: pointer;
+}
+
+.emp-item .card-selected{
+    display: none !important;
+}
+
+.emp-item.selected .card-selected{
+    display: flex !important;
+}
+
+.card-selected{
+    background-color: rgba(0, 0, 0, 0.4);
+}
